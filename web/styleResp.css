@@ -53,7 +53,7 @@ img {
     font-size: 0;
 }
 
-#titulo {
+#title{
     font-size: 500%;
     margin-left: 20%;
     color: #330033;
@@ -124,7 +124,7 @@ ul li #lMenu:hover {
     color: #660066;
     background-color: white;
     padding: 1%;
-    margin-left: 50%;
+    margin-left: 51%;
     -webkit-transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
@@ -141,7 +141,7 @@ ul li a:active {
 }
 
 /*============CONTEUDO==========*/
-.container #dConteudo {
+.container #dContent {
     display: block;
     position: relative;
     border: 1px solid black;
@@ -149,12 +149,12 @@ ul li a:active {
     margin: 1.5% auto 1% auto;
 }
 
-#tituloGeral {
+#generalTitle {
     font-size: 25px;
 }
 
 /*============RODAPE==========*/
-#pRodape {
+#pFooter {
     text-align: center;
     margin: 1% auto 1% auto;
 }

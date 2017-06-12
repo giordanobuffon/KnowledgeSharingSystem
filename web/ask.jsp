@@ -4,7 +4,7 @@
     <title>Faça uma pergunta</title>
     <%@include file="title.jsp" %>
     <div class="container">
-        <%@ include file="cabecalho.jsp" %>
+        <%@ include file="header.jsp" %>
 
 
         <div id="dForm">
@@ -13,15 +13,15 @@
 
                 <h1 class="hForm">Faça uma pergunta</h1><br>
 
-                <p id="pTitulo">
+                <p id="pTitle">
                     <label for="textId">Título:</label><br>
                     <input type="text" id="textId" placeholder="Como declarar uma variável?" required="required"
-                           name="titulo"/>
+                           name="title"/>
                 </p><br>
 
                 <p class="pDescricao">
                     <label for="descricaoId">Descrição:</label><br>
-                    <textarea id="descricaoId" placeholder="Descreva sua pergunta..." name="descricao" rows="7" cols="100"></textarea>
+                    <textarea id="descricaoId" placeholder="Descreva sua pergunta..." name="description" rows="7" cols="100"></textarea>
                     <br>
                 </p><br>
 
@@ -34,7 +34,7 @@
         </div>
 
 
-        <%@ include file="rodape.jsp" %>
+        <%@ include file="footer.jsp" %>
     </div>
     </body>
     </html>

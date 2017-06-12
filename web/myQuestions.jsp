@@ -4,17 +4,17 @@
     <title>Minhas Interações</title>
     <%@include file="title.jsp" %>
     <div class="container">
-        <%@ include file="cabecalho.jsp" %>
+        <%@ include file="header.jsp" %>
 
 
-        <div id="dConteudo">
+        <div id="dContent">
 
-            <h1 id="tituloGeral">Minhas Interações</h1>
+            <h1 id="generalTitle">Minhas Interações</h1>
 
         </div>
 
 
-        <%@ include file="rodape.jsp" %>
+        <%@ include file="footer.jsp" %>
     </div>
     </body>
     </html>

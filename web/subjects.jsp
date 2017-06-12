@@ -4,16 +4,16 @@
     <title>Inscrever-se</title>
     <%@include file="title.jsp" %>
     <div class="container">
-        <%@ include file="cabecalho.jsp" %>
+        <%@ include file="header.jsp" %>
 
 
-        <div id="dConteudo">
+        <div id="dContent">
 
 
         </div>
 
 
-        <%@ include file="rodape.jsp" %>
+        <%@ include file="footer.jsp" %>
     </div>
     </body>
     </html>

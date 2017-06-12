@@ -4,7 +4,7 @@
     <title>Cadastro</title>
     <%@ include file="title.jsp" %>
     <div class="container">
-        <%@ include file="cabecalho.jsp" %>
+        <%@ include file="header.jsp" %>
         <div id="dForm">
             <form id="cForm" action="ProcessingStudent" method="post">
                 <input type="hidden" name="operation" value="INSERT">
@@ -52,7 +52,7 @@
                 <br>
             </form>
         </div>
-        <%@ include file="rodape.jsp" %>
+        <%@ include file="footer.jsp" %>
     </div>
     </body>
     </html>

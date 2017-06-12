@@ -17,9 +17,9 @@
     <div id="dTop">
         <p id="pLog">
             <a href="login.jsp">Login</a> /
-            <a href="cadastro.jsp">Cadastro</a>
+            <a href="register.jsp">Cadastro</a>
         </p>
-        <p id="titulo">Nome do Sistema</p>
+        <p id="title">Nome do Sistema</p>
         <a href="index.html"><h1 class="logo"></h1></a>
     </div>
 
@@ -27,10 +27,10 @@
     <nav id="nMenu">
         <ul>
             <li><a href="index.jsp" class="lMenu">Visão Geral </a></li>
-            <li><a href="minhasPerguntas.jsp" class="lMenu">Minhas perguntas </a></li>
-            <li><a href="perguntar.jsp" class="lMenu">Fazer uma pergunta </a></li>
+            <li><a href="myQuestions.jsp" class="lMenu">Minhas perguntas </a></li>
+            <li><a href="ask.jsp" class="lMenu">Fazer uma pergunta </a></li>
 
-            <li><a href="inscrever.jsp" id="lMenu">Inscrever</a></li>
+            <li><a href="subjects.jsp" id="lMenu">Disciplinas</a></li>
         </ul>
     </nav>
 

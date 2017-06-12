@@ -4,17 +4,17 @@
     <title>Visão Geral</title>
     <%@include file="title.jsp" %>
     <div class="container">
-        <%@ include file="cabecalho.jsp" %>
+        <%@ include file="header.jsp" %>
 
 
-        <div id="dConteudo">
+        <div id="dContent">
 
-            <h1 id="tituloGeral">Visão geral dos cursos</h1>
+            <h1 id="generalTitle">Visão geral dos cursos</h1>
 
         </div>
 
 
-        <%@ include file="rodape.jsp" %>
+        <%@ include file="footer.jsp" %>
     </div>
     </body>
     </html>
